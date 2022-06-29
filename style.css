@@ -1,0 +1,64 @@
+.body{
+    background-image: url('../assets/jungle.png');
+  }
+  
+  
+  #home {
+        width: 550px;
+        height: 550px;
+        background-position: center center;
+        text-transform: uppercase;
+        margin-left: 400px;
+        border-radius: 16px;
+        margin-top: 80px;
+        background-image: url('../assets/kisspng-snakes-and-ladders-drawing-clip-art-snake-5a8e4cc49e5c32.5010509715192752046487.png');
+        background-size: contain;
+      }
+  
+      
+      button {
+        background-color: whitesmoke;
+        border: none;
+        bottom: 0;
+        height: 50px;
+        font-size: 18px;
+        float: left;
+        width: 100px;
+        z-index: 10;
+        margin-left: 630px;
+        margin-top: -10px;
+        border-radius: 10px;
+  
+      }
+      button:hover {
+        background-color: darkred;
+        color: white;
+      }
+  
+      button:disabled {
+        background-color: rgba(128, 128, 128, 0.675);
+      }
+  
+      p {
+        font-family: Helvetica;
+        font-weight: bold;
+        width: 350px;
+        float: left;
+        color: darkred;
+        font-size: x-large;
+        margin-top: 10px;
+        margin-left: 100px;
+        background-color: whitesmoke;
+        text-align: center;
+        border-radius: 16px;
+        padding: 10px;
+      }
+  
+      .game {
+        margin: 0 auto;
+      }
+  
+      canvas{
+        padding-left: 50px;
+        padding-top: -20px;
+      }
